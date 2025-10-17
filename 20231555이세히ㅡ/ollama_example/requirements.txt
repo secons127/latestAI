@@ -1,0 +1,15 @@
+# Ollama Python 예제를 실행하기 위한 필수 패키지
+
+# 기본 (모든 예제)
+ollama>=0.1.0
+
+# 배치 처리 (10_batch_processing.py)
+pandas>=2.0.0
+
+# RAG 예제 (8_mini_rag.py)
+faiss-cpu>=1.7.4
+numpy>=1.24.0
+
+# 선택사항: GPU 버전 FAISS (더 빠른 성능)
+# faiss-gpu>=1.7.4  # GPU 사용 시 faiss-cpu 대신 설치
+
